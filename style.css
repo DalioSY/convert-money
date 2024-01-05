@@ -6,10 +6,13 @@
 }
 
 body {
-    background: #8A51FC;
-}
+    background-image: url('./assets/mercado-cambio.jpg');
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área do elemento pai */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-attachment: fixed; /* Fixa a imagem de fundo, impedindo que role com a página */
+  }
 
-#id-logo {
+.logo {
     width: 300px;
     margin: 30px auto;
     display: block;
@@ -21,17 +24,16 @@ main {
     padding: 44px 24px;
     display: block;
     margin: 0 auto;
-    background-color: #F4F4F4;
+    background-color: #00131f
 }
 
 label {
-    font-size: 14px;
+    font-size: 30px;
     font-weight: 700;
-    color: #777777;
+    color: #979cca;
 }
 
-select,
-input {
+select, input {
     border: 1px solid #BBBBBB;
     background-color: #ffffff;
     border-radius: 4px;
@@ -51,7 +53,7 @@ button {
     height: 48px;
     color: #ffffff;
     border-radius: 5px;
-    background: #772FD3;
+    background: #006BA9;
     border: none;
     margin: 20px 0;
     font-size: 18px;
@@ -68,7 +70,7 @@ button:active {
 }
 
 aside {
-    border: 1px solid #772FD3;
+    border: 1px solid #ffffff;
     width: 327px;
     height: 276px;
     border-radius: 20px;
@@ -89,31 +91,14 @@ section {
     gap: 2px;
 }
 
-#arrow{
-    margin: 10px 0;
-}
-
-.moeda-valor{
-    color: #777777;
-    font-size: 14px;
-}
-
-.moeda-valor-entrada, .moeda-valor-convertida{
-    color: #555555;
+p {
+    color: #979cca;
     font-size: 20px;
-    font-weight: 700;
 }
 
-@media (orientation:portrait) and (max-width:450px){
-    body{
-        background-color: rgb(138, 81, 252, 0.5);
-    }
-
-    #id-logo {
-        display: none;
-    }
-
-    main{
-        margin-top: 45px;
-    }
+.currency-value,
+.currency-value-to-convert {
+    color: #cecece;
+    font-size: 30px;
+    font-weight: 700;
 }
