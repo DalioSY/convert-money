@@ -1,19 +1,21 @@
 
 <h1>Convert Money</h1>
-É um projeto que aprendi no DevClub  para aprender mais sobre HTML, CSS e JavaScript. O projeto apresenta uma lista de produtos, com informações sobre preços, descontos e especificações.
+Esse foi o primeiro projeto que aprendi no @DevClub usando JavaScript.
+É um convertor de moedas de Real para Dólar Americano, Euro, Libra e Btcoin.
+
+>Convert Money: https://daliosy.github.io/convert-money/
 
 <h2>Habilidades recentes:</h2>
 
-Aprendi do JavaScript.
+Aprendi querySelector, function, if, innerHTML, addEventListene e NumberFormat do JavaScript.
 
 <h2>Contato:</h2>
 
-> linkedin: https://www.linkedin.com/in/dalio-s-yamada/
+> Linkedin: https://www.linkedin.com/in/dalio-s-yamada/
+> Github: https://github.com/DalioSY/convert-money
 
 
 #HTML #CSS #JavaScript #Programação # Desenvolvedor Web #DesenvolvedorFrontEnd #DesenvolvedorFullStack #TransiçãoDeCarreira #Oportunidades #DisponívelParaTrabalho
 
 <img src="./assets/web-convert.png" />
-
->projeto burguer: https://daliosy.github.io/convert-money/
 
