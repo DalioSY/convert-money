@@ -1,7 +1,7 @@
 
 <h1>Conversor de moedas em JavaScript</h1>
 Esse foi o primeiro projeto que aprendi no DevClub usando JavaScript.
-Este projeto é um conversor de moedas que permite converter valores de Real para Dólar Americano, Euro, Libra e Bitcoin. Ele é importante porque fornece uma ferramenta útil para pessoas que precisam converter moedas com frequência.
+Este projeto é um conversor de moedas que permite converter valores de Real para Dólar Americano, Euro, Libra e Peso Argentino. Ele é importante porque fornece uma ferramenta útil para pessoas que precisam converter moedas com frequência.
 
 >Convert Money: https://daliosy.github.io/convert-money/
 
