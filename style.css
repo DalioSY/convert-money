@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url('./assets/mercado-cambio.jpg');
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área do elemento pai */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-attachment: fixed; /* Fixa a imagem de fundo, impedindo que role com a página */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+main {
+    width: 375px;
+    border-radius: 20px;
+    padding: 44px 24px;
+    background-color: #00131f
+}
+
+label {
+    font-size: 30px;
+    font-weight: 700;
+    color: #979cca;
+}
+
+select, input {
+    border: 1px solid #BBBBBB;
+    background-color: #ffffff;
+    border-radius: 4px;
+    width: 100%;
+    height: 48px;
+    margin: 10px 0px;
+    padding-left: 20px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    color: #555555;
+    cursor: pointer;
+}
+
+button {
+    width: 327px;
+    height: 48px;
+    color: #ffffff;
+    border-radius: 5px;
+    background: #006BA9;
+    border: none;
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+aside {
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    color: #777777;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+p {
+    color: #979cca;
+    font-size: 20px;
+}
+
+.currency-value,
+.currency-value-to-convert {
+    color: #cecece;
+    font-size: 30px;
+    font-weight: 700;
+}
